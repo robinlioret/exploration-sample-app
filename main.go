@@ -28,6 +28,6 @@ func getRoot(w http.ResponseWriter, r *http.Request) {
 }
 
 func getRiddle(w http.ResponseWriter, r *http.Request) {
-	fmt.Printf("got / request\n")
-	io.WriteString(w, "<p><i>What is always in front of you but can't be seen?</i></p>")
+	fmt.Printf("got /riddle request\n")
+	io.WriteString(w, "<p><i>What is always in front of you but can't be seen?</i><br/><br/>...</p>")
 }
