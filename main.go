@@ -24,7 +24,7 @@ func main() {
 
 func getRoot(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("got / request\n")
-	io.WriteString(w, "<p>Hello, Golang plop!</p>")
+	io.WriteString(w, "<p>Hello, Golang!</p>")
 }
 
 func getRiddle(w http.ResponseWriter, r *http.Request) {
