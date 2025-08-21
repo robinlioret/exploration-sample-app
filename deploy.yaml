@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/name: sample-app
     spec:
       containers:
-        - image: registry.sandbox.local/sample-app:latest
+        - image: cr.sandbox.local/sample-app:latest
           name: sample-app
           ports:
             - containerPort: 80
